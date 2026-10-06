@@ -36,6 +36,17 @@ none need a GPU. "Then" = how the original authors got their numbers.
 | 12 | `19930091081` — *Theoretical Lift and Damping in Roll at Supersonic Speeds of Thin Sweptback Tapered Wings* (Rep 970) | 1950 | Point-by-point evaluation over months | Embarrassingly-parallel parametric sweep — ideal **Slurm array demo** (one array task per wing geometry). |
 | 13 | `19930092032` — *Theoretical Stability Derivatives of Thin Sweptback Tapered Wings* (Rep 971) | 1950 | Same, point-by-point | Same as #12 — regenerate whole derivative tables as array jobs. |
 
+## Status
+
+- **#1 — Lessen (1950), `NTRS-19930092040`: SIMULATED 2026-10-06 on Vulcan.** Direct
+  Orr–Sommerfeld solution (the computation the paper deferred for lack of machine time):
+  α_s = 0.305, c_s = 0.565, unstable at all R ≥ 5, **lower branch of the neutral curve
+  recovered** (missing from the paper's fig. 3), eigenvalues converged to ~7 significant
+  figures across grids. Runtime ~5 min on 4 CPUs. Code: `sim/NTRS-19930092040.py`,
+  job: `sbatch/NTRS-19930092040.sh` (rerun: `sbatch naca-papers/sbatch/NTRS-19930092040.sh`),
+  outputs: `results/NTRS-19930092040/`.
+- #2–#13: not yet attempted.
+
 ## Suggested HPC test plan (Vulcan)
 
 None of these need GPUs — size for CPU:
