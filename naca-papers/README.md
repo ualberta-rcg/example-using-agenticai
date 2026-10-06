@@ -1,5 +1,24 @@
 # NACA-era papers selected for quick HPC re-simulation
 
+## Where everything lives
+
+Each paper's artifacts share its NTRS id, split across five directories
+(the sbatch jobs `cd` into `sim/` and run `<id>.py` — **the Python solvers
+live in `naca-papers/sim/`, not beside the sbatches**):
+
+```
+naca-papers/
+├── ocr/<id>.md, pdf/<id>.pdf   source texts and scans (13 papers)
+├── sim/<id>.py                 THE SOLVERS — what the jobs actually run
+├── sbatch/<id>.sh              Slurm jobs (self-contained; run from repo root)
+├── results/<id>/               outputs: figures, CSV, RESULTS.md (committed)
+├── logs/<id>/                  job logs verbatim, failures included
+└── ai-report/<id>.md           written response to each paper
+```
+
+Rerun any paper: `sbatch naca-papers/sbatch/<id>.sh` (adjust the two
+`module load` lines per cluster — see `PROCESS.md`).
+
 Thirteen short (9–18 page) papers from 1950–1953, picked from a ~96,000-document
 harvest of NASA NTRS (NACA-era) research for a "computational archaeology" exercise:
 work whose analysis was **infeasible or un-conceived at the time** — hand computation,

@@ -9,6 +9,7 @@
 # NTRS-19930092040 — Lessen (1950), "On Stability of Free Laminar Boundary
 # Layer Between Parallel Streams": direct Orr-Sommerfeld solution of the free
 # shear layer. CPU-only. Pattern: one sbatch per paper, named by NTRS id.
+# Solver: ../sim/NTRS-19930092040.py (this script cd's into sim/ and runs it).
 
 set -euo pipefail
 mkdir -p /scratch/rahimk/naca-sims/logs

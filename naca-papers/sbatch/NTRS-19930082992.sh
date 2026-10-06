@@ -10,6 +10,7 @@
 # Differential Equations of Atmospheric Oscillations": exact verification of
 # the quadratic-term estimate + re-application to the US76 atmosphere.
 # CPU-only, < 1 min. Pattern: one sbatch per paper, named by NTRS id.
+# Solver: ../sim/NTRS-19930082992.py (this script cd's into sim/ and runs it).
 #
 # PORTABILITY (other clusters): the two "module load" lines are Vulcan-
 # specific. Run `module spider scipy-stack` (or python/numpy equivalents)
