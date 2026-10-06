@@ -44,7 +44,7 @@ none need a GPU. "Then" = how the original authors got their numbers.
   recovered** (missing from the paper's fig. 3), eigenvalues converged to ~7 significant
   figures across grids. Runtime ~5 min on 4 CPUs. Code: `sim/NTRS-19930092040.py`,
   job: `sbatch/NTRS-19930092040.sh` (rerun: `sbatch naca-papers/sbatch/NTRS-19930092040.sh`),
-  outputs: `results/NTRS-19930092040/`.
+  outputs: `results/NTRS-19930092040/`, report: `ai-report/NTRS-19930092040.md`.
 - #2–#13: not yet attempted.
 
 ## Suggested HPC test plan (Vulcan)
