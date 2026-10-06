@@ -13,8 +13,15 @@ was infeasible by hand then).
 
 - `naca-papers/ocr/<NTRS-id>.md` — OCR text (GLM-OCR, equations as LaTeX)
 - `naca-papers/pdf/<NTRS-id>.pdf` — original scans
+- `naca-papers/sim/<NTRS-id>.py` — solver (one per paper)
+- `naca-papers/sbatch/<NTRS-id>.sh` — Slurm job (one per paper, named by NTRS id)
+- `naca-papers/results/<NTRS-id>/` — outputs (committed)
+- `naca-papers/ai-report/<NTRS-id>.md` — AI-written report on each simulation
+- `naca-papers/logs/<NTRS-id>/` — job logs, kept verbatim (failures included)
 - `naca-papers/README.md` — per-paper summary and what to run; **read it before
   proposing simulations**
+- `naca-papers/PROCESS.md` — the repeatable per-paper recipe + Vulcan gotchas
+  ledger; **follow it when starting a new paper**
 
 Notes for future sessions:
 
