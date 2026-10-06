@@ -1,0 +1,17 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+[A] prefactor 1/1064.0 (printed 1/1140); scale z/4.372 km (printed 5.6); crossing exact 30.47 km / printed 39.42 km
+[A] H implied by printed scale: 10.080 km vs stated 7.87 km
+[A] energy above 40 km (isothermal): void — column ceiling is 30.5 km < 40 km (external-mode divergence)
+[B] US76 crossing: external 34.8 km, internal 89.7 km at H=8.19 (internal range 88.7-92.0 km)
+[C] energy above 40 km (US76 internal, H=8.19): 54.1%, ceiling 90 km
+[done] wrote /scratch/rahimk/repos/example-using-agenticai/naca-papers/results/NTRS-19930082992 in 1.7s
+=== outputs ===
+total 1056
+drwxr-x--- 2 rahimk rahimk    154 Oct  6 13:17 .
+drwxr-x--- 4 rahimk rahimk     68 Oct  6 13:17 ..
+-rw-r----- 1 rahimk rahimk   3238 Oct  6 13:21 RESULTS.md
+-rw-r----- 1 rahimk rahimk  91486 Oct  6 13:21 energy.png
+-rw-r----- 1 rahimk rahimk     59 Oct  6 13:21 grid_convergence.txt
+-rw-r----- 1 rahimk rahimk 118994 Oct  6 13:21 uv_ratio.csv
+-rw-r----- 1 rahimk rahimk 159102 Oct  6 13:21 uv_ratio.png

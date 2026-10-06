@@ -51,7 +51,22 @@ none need a GPU. "Then" = how the original authors got their numbers.
   figures across grids. Runtime ~5 min on 4 CPUs. Code: `sim/NTRS-19930092040.py`,
   job: `sbatch/NTRS-19930092040.sh` (rerun: `sbatch naca-papers/sbatch/NTRS-19930092040.sh`),
   outputs: `results/NTRS-19930092040/`, report: `ai-report/NTRS-19930092040.md`.
-- #2–#13: not yet attempted.
+- **#2 — Pekeris (1951), `NTRS-19930082992`: SIMULATED 2026-10-06 on Vulcan.** Exact
+  verification of his quadratic-term estimate found an arithmetic inconsistency in eq. (9)
+  (printed constants imply H ≈ 10.1 km vs stated 7.87); two-regime re-application to the US76
+  atmosphere brackets the linearization-failure altitude at 35–90 km (his models: 125–130 km);
+  his "only 10% of wave energy above 40 km" argument shown regime-specific (54% for a
+  propagating tide today). Runtime 1.3 s on 4 CPUs (4 submissions).
+  outputs: `results/NTRS-19930082992/`, report: `ai-report/NTRS-19930082992.md`.
+- **NEXT UP (suggested for the next cluster): #3 — Sternfield & Gates (1951), Rep 1018,
+  `NTRS-19930092073`** — *Theoretical Analysis of the Effect of Time Lag in an Automatic
+  Stabilization System* (15 pp). A delay-differential-equation stability problem: they
+  approximated the lag e^(−sT) by hand-computable polynomials; the exact transcendental
+  spectrum is trivial now and yields the full gain×lag stability boundary (delay systems
+  produce stability islands — a striking figure). Maximum reuse of the Lessen eigenvalue
+  machinery. Caveat: reproducing their specific airplane numbers depends on tables that may
+  not have survived OCR — check `ocr/NTRS-19930092073.md` first (PROCESS.md step 2).
+- Remaining: #4–#13 not yet attempted.
 
 ## Suggested HPC test plan (Vulcan)
 

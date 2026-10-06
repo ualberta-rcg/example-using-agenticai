@@ -133,3 +133,9 @@ Learned the hard way in `logs/`; check here before blaming the physics:
 7. Matplotlib in jobs: set `MPLCONFIGDIR` under `$SLURM_TMPDIR`.
 8. `$SCRATCH` is unbacked and rotated — GitHub is the durable copy; push
    after every completed run.
+9. numpy 2.x removed `np.trapz` — use `np.trapezoid`.
+10. **A green exit code is not a result.** On the Pekeris run a job completed
+    cleanly with the wrong regime's growth law; only comparing the outputs
+    against the paper's stated envelope caught it. Validate every run's
+    numbers against the paper before accepting (and before writing the
+    report text — the report must follow the numbers, not the plan).
