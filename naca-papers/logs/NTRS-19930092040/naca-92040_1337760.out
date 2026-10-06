@@ -1,0 +1,21 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py:138: RuntimeWarning: divide by zero encountered in divide
+  D = (c[:, None] / c[None, :]) / dX
+[base] f'(0)=0.499668  f''(0)=0.194322
+[base] far-field decay slope 0.61673 vs paper a/2 = 0.61925
+[grid] N=240, sinh map S=80 kappa=3.5, eta in [100.0, -100.0]
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 402, in <module>
+    main()
+    ~~~~^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 221, in main
+    g_scan = np.array([growth(a) for a in a_scan])
+                       ~~~~~~^^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 218, in growth
+    return os_eigenvalues(a, R_inv, D, D2, U, Upp, args.N).imag
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 181, in os_eigenvalues
+    alpha_e, beta_e = la.eig(A, B, homogeneous_eig=True)
+                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: eig() got an unexpected keyword argument 'homogeneous_eig'. Did you mean 'homogeneous_eigvals'?

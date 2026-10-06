@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/_debug_spectrum.py", line 25, in <module>
+    s = paper.os_spectrum(1.0, 5772.22, g, viscous=True)
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 189, in os_spectrum
+    A = np.diag(g.U) @ L2 - np.diag(g.Upp)
+                ^^^
+AttributeError: 'PoiseuilleGrid' object has no attribute 'U'

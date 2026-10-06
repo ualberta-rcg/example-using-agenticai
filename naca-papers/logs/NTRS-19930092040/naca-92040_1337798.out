@@ -1,0 +1,19 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+[base] f'(0)=0.499668  f''(0)=0.194322
+[base] far-field decay slope 0.61673 vs paper a/2 = 0.61925
+[grid] N=240, sinh map S=100 kappa=3.5, eta in [-100.0, 100.0]
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 401, in <module>
+    main()
+    ~~~~^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 220, in main
+    g_scan = np.array([growth(a) for a in a_scan])
+                       ~~~~~~^^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 217, in growth
+    return os_eigenvalues(a, R_inv, D, D2, U, Upp, args.N).imag
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 183, in os_eigenvalues
+    ok = np.isfinite(c) & (np.abs(c) < 2.0) & (c.real > -0.5) & (c.real < 1.5)
+         ~~~~~~~~~~~^^^
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 2 dimensions. The detected shape was (2, 241) + inhomogeneous part.

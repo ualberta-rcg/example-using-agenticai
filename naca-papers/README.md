@@ -6,6 +6,12 @@ work whose analysis was **infeasible or un-conceived at the time** — hand comp
 graphical methods, relaxation solvers, slide rules — and which a modern cluster can
 re-run in seconds to minutes on CPU.
 
+## Process
+
+`PROCESS.md` is the repeatable recipe — selection, OCR verification, solver
+build, sbatch pattern, run loop, validation bars, and the gotchas ledger.
+Follow it for papers #2–#13.
+
 ## Provenance
 
 - Source: NASA Technical Reports Server (NTRS), harvested 2026-08 via the

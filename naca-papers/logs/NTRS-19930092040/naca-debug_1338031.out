@@ -1,0 +1,14 @@
+scipy 1.18.1
+signature: (a, b=None, left=False, right=True, overwrite_a=False, overwrite_b=False, check_finite=True, homogeneous_eigvals=False)
+
+plain eig(A,B): type <class 'tuple'>
+  part 0: shape (2,) ->
+[1.+0.j 1.+0.j]
+  part 1: shape (2, 2) ->
+[[1. 0.]
+ [0. 1.]]
+
+eig(A,B,right=False,left=False): type <class 'numpy.ndarray'>
+   [1.+0.j 1.+0.j]
+
+singular-B probe: type <class 'numpy.ndarray'> -> [inf+0.j  1.+0.j]

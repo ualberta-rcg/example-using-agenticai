@@ -1,0 +1,11 @@
+
+=== Poiseuille N=136: top by Im c ===
+
+=== Poiseuille N=160: top by Im c ===
+
+=== tanh layer, plain-ish map S=10 kappa=0.5 ===
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/_debug_spectrum.py", line 41, in <module>
+    g = TanhGrid.__new__(TanhGrid)
+        ^^^^^^^^
+NameError: name 'TanhGrid' is not defined

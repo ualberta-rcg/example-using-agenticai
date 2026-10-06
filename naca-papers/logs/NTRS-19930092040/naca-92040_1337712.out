@@ -1,0 +1,11 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 390, in <module>
+    main()
+    ~~~~^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 191, in main
+    base = base_flow()
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 82, in base_flow
+    raise RuntimeError(f"base-flow shooting failed: {sol.message}")
+RuntimeError: base-flow shooting failed: `xtol` termination condition is satisfied.

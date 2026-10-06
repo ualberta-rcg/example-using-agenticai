@@ -1,0 +1,12 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+Matplotlib is building the font cache; this may take a moment.
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 398, in <module>
+    main()
+    ~~~~^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 199, in main
+    base = base_flow()
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 95, in base_flow
+    raise RuntimeError(f"base flow does not reach U=1: f'(end)={sol.y[1,-1]:.8f}")
+RuntimeError: base flow does not reach U=1: f'(end)=0.99999811

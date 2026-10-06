@@ -1,0 +1,13 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+[base] f'(0)=0.499668  f''(0)=0.194322
+[base] far-field decay slope 0.61673 vs paper a/2 = 0.61925
+[grid] N=160/136, sinh map S=45 kappa=3, eta in [-45.0, 45.0]
+[inviscid] scan: +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 -0.0000 -0.0000 -0.0000 +0.0000 +0.0000 -0.0000 -0.0000 -0.0000 +0.0000 -0.0000 -0.0000 +0.0000 -0.0000 +0.0000 -0.0000 -0.0000 +0.0000 +0.0000 +0.0000 +0.0000 -0.0000 -0.0000
+Traceback (most recent call last):
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 449, in <module>
+    main()
+    ~~~~^^
+  File "/scratch/rahimk/repos/example-using-agenticai/naca-papers/sim/NTRS-19930092040.py", line 280, in main
+    raise RuntimeError("inviscid cut-off not bracketed in [0.2, 3.0]")
+RuntimeError: inviscid cut-off not bracketed in [0.2, 3.0]

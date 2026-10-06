@@ -1,0 +1,80 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2026/x86-64-v4/Compiler/gcccore/python/3.14.7/bin/python
+Python 3.14.7
+[base] f'(0)=0.499668  f''(0)=0.194322
+[base] far-field decay slope 0.61673 vs paper a/2 = 0.61925
+[grid] N=160/136, sinh map S=45 kappa=3, eta in [-45.0, 45.0]
+[inviscid] scan: +0.1860 +0.0793 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000 +0.0000
+[inviscid] alpha_s = 0.305016, c_s = 0.565109
+[sweep] R=      5.0  (70/3850 pts,    6.8s)
+[sweep] R=      5.8  (140/3850 pts,   12.0s)
+[sweep] R=      6.6  (210/3850 pts,   17.6s)
+[sweep] R=      7.6  (280/3850 pts,   23.3s)
+[sweep] R=      8.8  (350/3850 pts,   28.8s)
+[sweep] R=     10.1  (420/3850 pts,   34.1s)
+[sweep] R=     11.6  (490/3850 pts,   39.5s)
+[sweep] R=     13.4  (560/3850 pts,   44.8s)
+[sweep] R=     15.4  (630/3850 pts,   50.1s)
+[sweep] R=     17.7  (700/3850 pts,   55.3s)
+[sweep] R=     20.4  (770/3850 pts,   61.0s)
+[sweep] R=     23.5  (840/3850 pts,   66.7s)
+[sweep] R=     27.1  (910/3850 pts,   72.0s)
+[sweep] R=     31.2  (980/3850 pts,   77.4s)
+[sweep] R=     35.9  (1050/3850 pts,   83.0s)
+[sweep] R=     41.3  (1120/3850 pts,   88.3s)
+[sweep] R=     47.5  (1190/3850 pts,   93.9s)
+[sweep] R=     54.7  (1260/3850 pts,   99.1s)
+[sweep] R=     63.0  (1330/3850 pts,  104.8s)
+[sweep] R=     72.5  (1400/3850 pts,  110.3s)
+[sweep] R=     83.5  (1470/3850 pts,  115.8s)
+[sweep] R=     96.1  (1540/3850 pts,  121.2s)
+[sweep] R=    110.6  (1610/3850 pts,  126.4s)
+[sweep] R=    127.3  (1680/3850 pts,  131.3s)
+[sweep] R=    146.6  (1750/3850 pts,  136.4s)
+[sweep] R=    168.7  (1820/3850 pts,  141.7s)
+[sweep] R=    194.2  (1890/3850 pts,  146.8s)
+[sweep] R=    223.6  (1960/3850 pts,  152.3s)
+[sweep] R=    257.4  (2030/3850 pts,  157.7s)
+[sweep] R=    296.3  (2100/3850 pts,  163.2s)
+[sweep] R=    341.1  (2170/3850 pts,  168.6s)
+[sweep] R=    392.7  (2240/3850 pts,  174.2s)
+[sweep] R=    452.0  (2310/3850 pts,  179.8s)
+[sweep] R=    520.3  (2380/3850 pts,  185.2s)
+[sweep] R=    599.0  (2450/3850 pts,  190.5s)
+[sweep] R=    689.5  (2520/3850 pts,  195.6s)
+[sweep] R=    793.7  (2590/3850 pts,  200.7s)
+[sweep] R=    913.7  (2660/3850 pts,  205.8s)
+[sweep] R=   1051.8  (2730/3850 pts,  211.1s)
+[sweep] R=   1210.7  (2800/3850 pts,  216.4s)
+[sweep] R=   1393.7  (2870/3850 pts,  221.7s)
+[sweep] R=   1604.4  (2940/3850 pts,  226.8s)
+[sweep] R=   1846.9  (3010/3850 pts,  232.2s)
+[sweep] R=   2126.0  (3080/3850 pts,  237.3s)
+[sweep] R=   2447.4  (3150/3850 pts,  242.4s)
+[sweep] R=   2817.3  (3220/3850 pts,  247.6s)
+[sweep] R=   3243.1  (3290/3850 pts,  252.7s)
+[sweep] R=   3733.3  (3360/3850 pts,  257.9s)
+[sweep] R=   4297.5  (3430/3850 pts,  263.0s)
+[sweep] R=   4947.1  (3500/3850 pts,  267.9s)
+[sweep] R=   5694.8  (3570/3850 pts,  273.1s)
+[sweep] R=   6555.6  (3640/3850 pts,  278.3s)
+[sweep] R=   7546.4  (3710/3850 pts,  283.3s)
+[sweep] R=   8687.0  (3780/3850 pts,  288.3s)
+[sweep] R=  10000.0  (3850/3850 pts,  293.7s)
+[result] max amplification c_i = 0.1859 at alpha=0.2000, R=10000.0
+[result] minimum R with instability (lower branch onset): R = 5.00
+[conv]
+alpha      R        c(N=160)                     c(N=136)                     delta
+0.22876     50.0  0.5416285217+0.1310026764j   0.5416278928+0.1310023223j   7.22e-07
+0.22876   2000.0  0.5478484153+0.1535021153j   0.5478478750+0.1535017488j   6.53e-07
+0.30502  10000.0  0.5650587660+0.0779752541j   0.5650736193+0.0779651190j   1.80e-05
+
+[done] wrote /scratch/rahimk/repos/example-using-agenticai/naca-papers/results/NTRS-19930092040 in 299.3s
+=== outputs ===
+total 888
+drwxr-x--- 2 rahimk rahimk    165 Oct  6 13:01 .
+drwxr-x--- 3 rahimk rahimk     34 Oct  6 12:32 ..
+-rw-r----- 1 rahimk rahimk   2116 Oct  6 13:01 RESULTS.md
+-rw-r----- 1 rahimk rahimk  61128 Oct  6 13:01 base_flow.png
+-rw-r----- 1 rahimk rahimk 103616 Oct  6 13:01 eigenvalues.csv
+-rw-r----- 1 rahimk rahimk    339 Oct  6 13:01 grid_convergence.txt
+-rw-r----- 1 rahimk rahimk 139231 Oct  6 13:01 stability_map.png
